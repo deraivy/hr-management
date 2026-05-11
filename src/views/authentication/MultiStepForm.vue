@@ -442,7 +442,7 @@ const fetchReasons = async () => {
 // Computed property to derive workspace domain
 const derivedWorkspaceDomain = computed(() => {
   if (formData.domain) {
-    return `${formData.domain}.hrline.com`;
+    return `${formData.domain}`;
   }
   return "yourcompany.hrline.com";
 });
