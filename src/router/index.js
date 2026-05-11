@@ -43,6 +43,7 @@ import Permission from "@/views/Settings.vue/Permission.vue";
 import Integration from "@/views/Settings.vue/Integration.vue";
 import Subscription from "@/views/Settings.vue/Subscription.vue";
 import Notification from "@/views/Settings.vue/Notification.vue";
+import Crm from "@/views/crm.vue";
 
 const routes = [
   {
@@ -224,6 +225,12 @@ const routes = [
     name: "apply",
     component: Apply,
     meta: { noApp: true },
+  },
+
+  {
+    path: "/crm",
+    name: "crm",
+    component: Crm,
   },
 
   {

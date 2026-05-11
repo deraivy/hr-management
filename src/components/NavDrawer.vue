@@ -214,6 +214,11 @@ export default {
           { text: "Settings", path: "/recuitsetting" },
         ],
       },
+      {
+        text: "CRM",
+        icon: "material-symbols:contact-mail-outline",
+        path: "/crm",
+      },
     ];
 
     const toggleDropdown = (index) => {
